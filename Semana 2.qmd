@@ -1,0 +1,36 @@
+---
+title: "Semana 2"
+author: "Mirla Polo"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Como crear proyecto en Rstudio
+
+1\. En la parte dereche: seleccionamos New Project
+
+![](images/clipboard-2364523383.png)
+
+2.  Seleccionamos nuevo directorio
+
+![](images/clipboard-637724758.png)
+
+3\. Seleccionamos el nuevo proyecto
+
+![](images/clipboard-2128088951.png)
+
+4\. Ubicar el proyecto
+
+![](images/clipboard-2678043417.png)
+
+5\.  Seleccionar carpeta a guardar
+
+![](images/clipboard-898106750.png)
+
+6\. Visualizar el proyecto
+
+![](images/clipboard-11910099.png)
