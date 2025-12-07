@@ -1,0 +1,47 @@
+---
+title: "SEMANA 6"
+author: "Mirla Polo"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Como limpiar una data para utilizar una columna especifica 
+
+1\. Primero llamamos al archivo
+
+![](images/clipboard-2739281196.png)
+
+2\. Presionamos en from text (readr)
+
+![](images/clipboard-1765160719.png)
+
+3\. Ponemos en buscar y seleccionamos el archivo
+
+![](images/clipboard-2900643417.png)
+
+4\. Copiamos el ejecutable y lo importamos al mismo tiempo
+
+```{r}
+<- read_csv("C:/Users/HP/Downloads/s02_treat_artritis.csv")
+
+```
+
+5\. Ahora cargamos la data a trabajar
+
+```{r}
+data<- read_csv("C:/Users/HP/Downloads/s02_treat_artritis.csv")
+```
+
+6\. Limpiamos la data de una columna especifica que contengan datos perdidos con la siguiente formula
+
+```{r}
+data_limpia <- data[!is.na(data$CDAI),]
+```
+
+7\. Vemos que ya está la data limpia de CDAI
+
+![](images/clipboard-1909997189.png)
