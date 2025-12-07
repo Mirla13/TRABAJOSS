@@ -1,0 +1,36 @@
+---
+title: "SEMANA 8"
+author: "Mirla Polo"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Como instalar un paquete en Rstudio- Realiza tu grafico estadístico 
+
+1\. Escribes el siguiente comando (solo la primera vez):
+
+```{r}
+install.packages("ggplot2")
+```
+
+2\. Activamos el paquete
+
+```{r}
+library(ggplot2)
+```
+
+3\. Visualizamos
+
+![](images/clipboard-1287222372.png)
+
+4\. Creamos un histograma de la variable ‘’Edad’’
+
+```{r}
+ggplot(data, aes(x = Edad))+
+geom_histogram(binwidth = 5) +
+labs(title = "Histograma de Edad")  
+```
