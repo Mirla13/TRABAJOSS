@@ -1,0 +1,35 @@
+---
+title: "SEMANA 10"
+author: "Mirla Polo"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## **Calcular las medidas de tendencia central** 
+
+1\.  Calcular la media (promedio) con la siguiente formula  
+
+```{r}
+mean(data$Edad)
+```
+
+2\. Calcular la mediana con la siguiente formula
+
+```{r}
+median(data$Edad)
+```
+
+3\. Calculamos la moda con la siguiente formula
+
+```{r}
+moda <- function(x){
+  ux <- unique(x)
+  ux[which.max(tabulate(match(x, ux)))]
+}
+
+moda(data$Edad )
+```
