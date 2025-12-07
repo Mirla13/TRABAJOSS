@@ -1,0 +1,36 @@
+---
+title: "SEMANA 4"
+author: "Mirla Polo"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Como descargar un archivo en formato CSV del repositorio GIBHUB 
+
+1.Entrar a la Guía que se encuentra en el black board
+
+![](images/clipboard-3708158804.png)
+
+2\. Nos dirigimos al siguiente link <https://github.com/KJPaez1/Basic_Stat_Methods>
+
+![](images/clipboard-2990108900.png)
+
+3\. En este mismo, vamos a data
+
+![](images/clipboard-835216289.png)
+
+4\. Nos ubicamos en una de estas datas csv
+
+![](images/clipboard-1866290074.png)
+
+5\. Le damos al icono de descargar
+
+![](images/clipboard-2327636248.png)
+
+6\. Y la visualizamos
+
+![](images/clipboard-2620337421.png)
