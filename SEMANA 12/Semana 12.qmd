@@ -1,0 +1,38 @@
+---
+title: "SEMANA 12"
+author: "Mirla Polo"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Cálculo de las Medidas de Dispersión y de Posición de la variable EDAD
+(varianza, desviación estándar, rango, rango intercuartílico y cuartiles).
+Visualización de las primeras 6 filas y del resumen estadístico
+
+1\. Buscamos la varianza con la siguiente formula
+
+```{r}
+var(data$Edad)
+```
+
+2\. Ahora la Desviación estándar
+
+```{r}
+sd(data$Edad)
+```
+
+3\. Hallamos el Rango
+
+```{r}
+range(data$Edad)
+```
+
+4\. Y ahora halamos el rango intercuartílico
+
+```{r}
+IQR(data$Edad)
+```
